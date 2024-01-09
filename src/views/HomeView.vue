@@ -1,9 +1,10 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+  import TmdbComponent
+   from '@/components/TmdbComponent.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <TmdbComponent/>
   </main>
 </template>

@@ -1,12 +1,9 @@
 <script setup>
-  import TmdbComponent from './components/TmdbComponent.vue';
+  import HomeView from './views/HomeView.vue';
 </script>
 
 <template>
-  <div>
-    <h1>Filmes Populares</h1>
-    <TmdbComponent />
-  </div>
+  <HomeView />
 </template>
 
 <style scoped>
